@@ -1,0 +1,14 @@
+
+#login{
+	padding: 30em; /*Le cambia el tamaño al formulario*/
+	 margin-top: -25em;/*Lo mueve hacia arriba*/ 
+	 
+	 margin-left: 10em;/*Lo mueve hacia la derecha*/	
+}
+#panel-body{
+
+}
+
+#panel-footer{
+background-color: #FAAC58
+}

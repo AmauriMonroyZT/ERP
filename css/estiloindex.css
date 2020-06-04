@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}/*Recorre las letras en la barra*/
+
+/*body{
+	background: #313D52;
+}/*Pone el color de fondo */
+
+header{
+	width: 100%;
+}
+#Packet{
+	 font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color: white;
+  background-color: white; 
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #FF8000;
+}/*pOSICIONA LA BARRA Y LE DA COLOR*/
+
+.navegacion ul{
+	list-style: none;
+}/*Le pone un punto desde el packet*/
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}/*alinea en forma horizontal el menu*/
+
+.menu > li > a{
+	display: block;
+	padding: 10px 10px;
+	color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+
+}/*Hace grandote el meu*/
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}/*Hace que cambie de color los despegables*/
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}

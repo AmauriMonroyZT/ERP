@@ -1,0 +1,26 @@
+
+
+.movimiento{
+/*	border: 5px solid blue;*/
+	border-radius: 10px;
+	width: 69em;/*lA MUEVE A IZQUIERDA O DERECHA*/
+	height: 10em;
+	margin: 4.5% auto; /*mUEVE HACIUA ARRIBA O ABAJO*/
+	box-shadow: #39312F;
+	position: relative;
+}
+
+.movimiento img{
+	height: 340px;/*La hace nas alta*/
+	width: 1040px;/*La hace mas ancha*/
+	position: absolute;
+	border: 123px;
+}
+
+.movimiento .img2, .movimiento .img3{
+    display: none;
+}
+/*#tam{
+	width: 200px;
+	height: 300px;
+}*/
