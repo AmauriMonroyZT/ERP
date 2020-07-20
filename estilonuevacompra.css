@@ -1,0 +1,26 @@
+body{
+ background: url(Imagenes/compras.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#login{
+	padding: 30em; /*Le cambia el tamaño al formulario*/
+	 margin-top: -30em;/*Lo mueve hacia arriba*/ 
+	 
+	 margin-left: 8em;/*Lo mueve hacia la derecha*/	
+}
+
+#login2{
+	padding: 30em; /*Le cambia el tamaño al formulario*/
+	 margin-top: -105em;/*Lo mueve hacia arriba*/ 
+	 
+	 margin-left: 10em;/*Lo mueve hacia la derecha*/	
+}
+#panel-body{
+
+}
+
+#panel-footer{
+background-color: #FF8000
+}
+

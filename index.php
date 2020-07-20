@@ -44,18 +44,23 @@
     <li class="nav-item active">
       <a href="index.php" class="nav-link" >Inicio</a>
     </li>
-    <li class="nav-item active">
-      <a href="#" class="nav-link" >Post</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable">
-        Administracion
-      </a>
-      <div class="dropdown-menu">
-        <a href="#" class="drop-item"> Usuarios</a><br>
-        <a href="#" class="drop-item"> Perfiles</a>
-      </div>
-    </li>
+    
+
+    
+
+
+<form action="materiaprima.php">
+<div class="dropdown">
+  <button  class="btn btn-secondary"  type="submit" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Materia Prima
+  </button>
+</div>
+</form>
+
+
+
+
+
     <li class="nav-item active">
         
       <a href="login.php" class="nav-link" >Inscribirse/Iniciar sesion
@@ -70,9 +75,38 @@
       </a>
       
     </li>
+    
+
+    <form action="ventas.php">
+<div class="dropdown">
+  <button  class="btn btn-secondary"  type="submit" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Ventas de la empresa
+  </button>
+</div>
+</form>
+
+
+    <form action="productos.php">
+<div class="dropdown">
+  <button  class="btn btn-secondary"  type="submit" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Productos
+  </button>
+</div>
+</form>
+
+
+
+ <form action="compras.php">
+<div class="dropdown">
+  <button  class="btn btn-secondary"  type="submit" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Compras
+  </button>
+</div>
+</form>
+
   </ul>
 <span class="navbar-text">
-  Texto plano
+  Texto prueba
   
 </span>
 </div>
